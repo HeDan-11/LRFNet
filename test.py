@@ -6,7 +6,7 @@ import numpy as np
 import cv2
 import torch
 from data_process.bulid_datasets import get_test_img, ycbcr_to_rgb
-from LRFNet import mymodel as net
+from nets.LRFNet import mymodel as net
 
 
 device = torch.device('cuda:0')
